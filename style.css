@@ -35,11 +35,45 @@ body {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #adadad;
 }
 
 ul {
     list-style: none;
     padding: 0;
     margin:0;
+}
+
+.hero {
+    justify-content: space-between;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #adadad;
+
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #F9FaF8
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c747d;
+    width: 500px;
+    height: 250px;
+}
+
+.hero-image-text {
+    color: #F9FaF8
 }
