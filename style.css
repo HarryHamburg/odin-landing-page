@@ -155,7 +155,9 @@ ul {
 .quote-attribution {
     align-self: flex-end;
     font-weight: 700;
-    font-size: 24px
+    font-size: 24px;
+    margin-right: 20px;
+    margin-top: 0px;
 }
 
 .cta-section {
@@ -200,3 +202,15 @@ ul {
     border-radius: 8px;
 }
 
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.footer-text {
+    color: #d0dbec;
+    font-size: 18px;
+}
