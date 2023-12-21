@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@ 100; 200; 400; 700; 900 &display=swap');
 
 body {
     font-family: roboto, sans-serif;
@@ -108,7 +108,7 @@ ul {
 .info-title {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 1000;
+    font-weight: 700;
     text-align: center;
     margin: 50px 0px;
 }
@@ -129,4 +129,31 @@ ul {
     width: 168px;
     border: 0px;
     display: flex;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding-left: 350px;
+    padding-right: 350px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    Align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.quote-attribution {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px
 }
